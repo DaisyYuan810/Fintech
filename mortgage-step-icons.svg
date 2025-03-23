@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200">
+  <!-- Step 1: Create Your Profile -->
+  <g transform="translate(75, 100)">
+    <circle cx="0" cy="0" r="60" fill="#79553D" />
+    <text x="0" y="5" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="white">1</text>
+    
+    <!-- Profile icon - person with settings -->
+    <g transform="translate(0, -85)">
+      <circle cx="0" cy="0" r="30" fill="#E0CCA9" stroke="#5D4037" stroke-width="2" />
+      <!-- Person silhouette -->
+      <circle cx="0" cy="-7" r="10" fill="#5D4037" />
+      <path d="M0 3 L0 22 M-10 8 L10 8 M-7 22 L-12 32 M7 22 L12 32" stroke="#5D4037" stroke-width="3" stroke-linecap="round" />
+      <!-- Settings gear -->
+      <circle cx="18" cy="-18" r="10" fill="#8D6E63" stroke="#5D4037" stroke-width="1" />
+      <path d="M18 -23 L18 -13 M13 -18 L23 -18" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" />
+      <path d="M14 -22 L22 -14 M14 -14 L22 -22" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" />
+    </g>
+  </g>
+  
+  <!-- Step 2: Document Verification -->
+  <g transform="translate(275, 100)">
+    <circle cx="0" cy="0" r="60" fill="#E0CCA9" />
+    <text x="0" y="5" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#5D4037">2</text>
+    
+    <!-- Document with checkmark -->
+    <g transform="translate(0, -85)">
+      <rect x="-20" y="-15" width="40" height="50" rx="3" fill="#FFFFFF" stroke="#5D4037" stroke-width="2" />
+      <path d="M-12 -5 L12 -5 M-12 5 L8 5 M-12 15 L4 15" stroke="#5D4037" stroke-width="2" />
+      <!-- Checkmark -->
+      <circle cx="15" cy="20" r="15" fill="#4CAF50" />
+      <path d="M7 20 L13 26 L23 16" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    </g>
+  </g>
+  
+  <!-- Step 3: Mortgage Matching -->
+  <g transform="translate(475, 100)">
+    <circle cx="0" cy="0" r="60" fill="#E0CCA9" />
+    <text x="0" y="5" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#5D4037">3</text>
+    
+    <!-- Home with dollar sign - mortgage match -->
+    <g transform="translate(0, -85)">
+      <rect x="-15" y="0" width="30" height="25" fill="#8D6E63" />
+      <path d="M-20 0 L0 -20 L20 0" fill="#5D4037" />
+      <!-- Dollar sign -->
+      <circle cx="15" cy="15" r="15" fill="#4CAF50" />
+      <path d="M15 8 L15 22 M12 10 L18 10 M12 20 L18 20" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" />
+      <path d="M-5 13 L5 13" stroke="#FFFFFF" stroke-width="1.5" />
+    </g>
+  </g>
+  
+  <!-- Step 4: Guided Approval -->
+  <g transform="translate(675, 100)">
+    <circle cx="0" cy="0" r="60" fill="#E0CCA9" />
+    <text x="0" y="5" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#5D4037">4</text>
+    
+    <!-- Handshake with house key -->
+    <g transform="translate(0, -85)">
+      <!-- Handshake -->
+      <path d="M-25 0 C-15 -5, -5 -5, 0 0 C5 5, 15 5, 25 0" stroke="#5D4037" stroke-width="5" fill="none" stroke-linecap="round" />
+      <path d="M-20 5 C-10 0, 0 0, 5 5 C10 10, 20 10, 25 5" stroke="#8D6E63" stroke-width="5" fill="none" stroke-linecap="round" />
+      
+      <!-- Key -->
+      <g transform="translate(0, 20) rotate(-15)">
+        <circle cx="0" cy="0" r="10" fill="#C0C0C0" />
+        <rect x="-3" y="10" width="6" height="15" rx="1" fill="#A0A0A0" />
+        <path d="M-3 20 L-8 25 L-8 28 L-3 28 L-3 25 Z" fill="#808080" />
+      </g>
+    </g>
+  </g>
+</svg>
