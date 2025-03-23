@@ -1,0 +1,199 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Background circle with sophisticated gradient -->
+  <defs>
+    <linearGradient id="backgroundGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5efe6" />
+      <stop offset="60%" stop-color="#e8dfd5" />
+      <stop offset="100%" stop-color="#d8cfc5" />
+    </linearGradient>
+    
+    <!-- City skyline pattern -->
+    <pattern id="cityPattern" patternUnits="userSpaceOnUse" width="200" height="50" patternTransform="translate(0,380) scale(1.2)">
+      <rect x="10" y="10" width="15" height="40" rx="2" fill="#594A42" opacity="0.7" />
+      <rect x="35" y="0" width="20" height="50" rx="2" fill="#79553D" opacity="0.8" />
+      <rect x="65" y="15" width="18" height="35" rx="2" fill="#594A42" opacity="0.7" />
+      <rect x="93" y="5" width="22" height="45" rx="2" fill="#79553D" opacity="0.8" />
+      <rect x="125" y="20" width="15" height="30" rx="2" fill="#594A42" opacity="0.7" />
+      <rect x="150" y="10" width="20" height="40" rx="2" fill="#79553D" opacity="0.8" />
+      <rect x="180" y="5" width="12" height="45" rx="2" fill="#594A42" opacity="0.7" />
+    </pattern>
+    
+    <!-- Map pattern -->
+    <pattern id="mapPattern" patternUnits="userSpaceOnUse" width="100" height="100" patternTransform="translate(0,0) scale(0.5)">
+      <path d="M0 20 L100 20 M0 40 L100 40 M0 60 L100 60 M0 80 L100 80" stroke="#D9CFC3" stroke-width="0.5" />
+      <path d="M20 0 L20 100 M40 0 L40 100 M60 0 L60 100 M80 0 L80 100" stroke="#D9CFC3" stroke-width="0.5" />
+      <circle cx="30" cy="70" r="3" fill="#A5725E" opacity="0.6" />
+      <circle cx="60" cy="30" r="4" fill="#A5725E" opacity="0.6" />
+      <circle cx="80" cy="60" r="3" fill="#A5725E" opacity="0.6" />
+    </pattern>
+  </defs>
+  
+  <!-- Main background -->
+  <circle cx="250" cy="250" r="240" fill="url(#backgroundGradient)" />
+  <circle cx="250" cy="250" r="239" fill="none" stroke="#79553D" stroke-width="2" opacity="0.3" />
+  
+  <!-- Map background element -->
+  <circle cx="250" cy="250" r="220" fill="url(#mapPattern)" opacity="0.4" />
+  
+  <!-- Stars surrounding the house -->
+  <!-- Row 1 -->
+  <path d="M50 80 L55 95 L70 95 L60 105 L65 120 L50 110 L35 120 L40 105 L30 95 L45 95 Z" fill="#FFD700" opacity="0.7" />
+  <path d="M130 40 L133 48 L142 48 L135 53 L138 62 L130 57 L122 62 L125 53 L118 48 L127 48 Z" fill="#FFD700" opacity="0.8" />
+  <path d="M210 25 L214 37 L227 37 L217 45 L221 57 L210 49 L199 57 L203 45 L193 37 L206 37 Z" fill="#FFD700" opacity="0.9" />
+  <path d="M290 40 L293 48 L302 48 L295 53 L298 62 L290 57 L282 62 L285 53 L278 48 L287 48 Z" fill="#FFD700" opacity="0.8" />
+  <path d="M370 80 L375 95 L390 95 L380 105 L385 120 L370 110 L355 120 L360 105 L350 95 L365 95 Z" fill="#FFD700" opacity="0.7" />
+  
+  <!-- Row 2 -->
+  <path d="M30 160 L33 168 L42 168 L35 173 L38 182 L30 177 L22 182 L25 173 L18 168 L27 168 Z" fill="#FFD700" opacity="0.6" />
+  <path d="M450 160 L453 168 L462 168 L455 173 L458 182 L450 177 L442 182 L445 173 L438 168 L447 168 Z" fill="#FFD700" opacity="0.6" />
+  
+  <!-- Row 3 -->
+  <path d="M70 370 L75 385 L90 385 L80 395 L85 410 L70 400 L55 410 L60 395 L50 385 L65 385 Z" fill="#FFD700" opacity="0.7" />
+  <path d="M430 370 L435 385 L450 385 L440 395 L445 410 L430 400 L415 410 L420 395 L410 385 L425 385 Z" fill="#FFD700" opacity="0.7" />
+  <path d="M250 440 L253 448 L262 448 L255 453 L258 462 L250 457 L242 462 L245 453 L238 448 L247 448 Z" fill="#FFD700" opacity="0.8" />
+  
+  <!-- Main house illustration - more detailed -->
+  <g transform="translate(70, 90) scale(0.85)">
+    <!-- House base -->
+    <rect x="70" y="150" width="280" height="185" rx="3" fill="#79553D" />
+    <rect x="68" y="148" width="284" height="189" rx="4" fill="none" stroke="#5D4037" stroke-width="2" />
+    
+    <!-- Brick texture on house -->
+    <g opacity="0.2">
+      <path d="M80 160 L100 160 M120 160 L140 160 M160 160 L180 160 M200 160 L220 160 M240 160 L260 160 M280 160 L300 160 M320 160 L340 160" stroke="#5D4037" stroke-width="1" />
+      <path d="M80 180 L100 180 M120 180 L140 180 M160 180 L180 180 M200 180 L220 180 M240 180 L260 180 M280 180 L300 180 M320 180 L340 180" stroke="#5D4037" stroke-width="1" />
+      <path d="M80 200 L100 200 M120 200 L140 200 M160 200 L180 200 M200 200 L220 200 M240 200 L260 200 M280 200 L300 200 M320 200 L340 200" stroke="#5D4037" stroke-width="1" />
+      <path d="M80 220 L100 220 M120 220 L140 220 M160 220 L180 220 M200 220 L220 220 M240 220 L260 220 M280 220 L300 220 M320 220 L340 220" stroke="#5D4037" stroke-width="1" />
+      <path d="M80 240 L100 240 M120 240 L140 240 M160 240 L180 240 M200 240 L220 240 M240 240 L260 240 M280 240 L300 240 M320 240 L340 240" stroke="#5D4037" stroke-width="1" />
+      <path d="M80 260 L100 260 M120 260 L140 260 M160 260 L180 260 M200 260 L220 260 M240 260 L260 260 M280 260 L300 260 M320 260 L340 260" stroke="#5D4037" stroke-width="1" />
+      <path d="M80 280 L100 280 M120 280 L140 280 M160 280 L180 280 M200 280 L220 280 M240 280 L260 280 M280 280 L300 280 M320 280 L340 280" stroke="#5D4037" stroke-width="1" />
+      <path d="M80 300 L100 300 M120 300 L140 300 M160 300 L180 300 M200 300 L220 300 M240 300 L260 300 M280 300 L300 300 M320 300 L340 300" stroke="#5D4037" stroke-width="1" />
+      <path d="M80 320 L100 320 M120 320 L140 320 M160 320 L180 320 M200 320 L220 320 M240 320 L260 320 M280 320 L300 320 M320 320 L340 320" stroke="#5D4037" stroke-width="1" />
+    </g>
+    
+    <!-- House roof -->
+    <path d="M50 150 L210 40 L370 150" stroke="#5D4037" stroke-width="4" fill="#8D6E63" />
+    <path d="M50 150 L210 40 L370 150" fill="#8D6E63" />
+    
+    <!-- Roof texture -->
+    <g opacity="0.3">
+      <path d="M70 140 L90 125 M100 118 L120 103 M130 96 L150 81 M160 74 L180 59 M190 52 L210 40" stroke="#5D4037" stroke-width="1" />
+      <path d="M210 40 L230 52 M240 59 L260 74 M270 81 L290 96 M300 103 L320 118 M330 125 L350 140" stroke="#5D4037" stroke-width="1" />
+    </g>
+    
+    <!-- Front porch/steps -->
+    <rect x="150" y="335" width="100" height="5" rx="1" fill="#5D4037" />
+    <rect x="160" y="330" width="80" height="5" rx="1" fill="#8D6E63" />
+    
+    <!-- Door -->
+    <rect x="170" y="240" width="60" height="90" rx="3" fill="#E0CCA9" />
+    <rect x="168" y="238" width="64" height="94" rx="4" fill="none" stroke="#5D4037" stroke-width="2" />
+    <rect x="175" y="245" width="50" height="80" rx="2" fill="none" stroke="#A1887F" stroke-width="1" />
+    <circle cx="215" cy="285" r="5" fill="#594A42" />
+    <circle cx="215" cy="285" r="3" fill="#3E2723" />
+    <circle cx="215" cy="285" r="1" fill="#8D6E63" />
+    
+    <!-- Windows - more detailed -->
+    <rect x="90" y="180" width="50" height="50" rx="2" fill="#C2E6FF" />
+    <rect x="88" y="178" width="54" height="54" rx="3" fill="none" stroke="#5D4037" stroke-width="2" />
+    <path d="M90 205 L140 205" stroke="#79553D" stroke-width="2" />
+    <path d="M115 180 L115 230" stroke="#79553D" stroke-width="2" />
+    
+    <rect x="260" y="180" width="50" height="50" rx="2" fill="#C2E6FF" />
+    <rect x="258" y="178" width="54" height="54" rx="3" fill="none" stroke="#5D4037" stroke-width="2" />
+    <path d="M260 205 L310 205" stroke="#79553D" stroke-width="2" />
+    <path d="M285 180 L285 230" stroke="#79553D" stroke-width="2" />
+    
+    <!-- Chimney -->
+    <rect x="300" y="70" width="20" height="50" fill="#5D4037" />
+    <rect x="298" y="65" width="24" height="5" fill="#3E2723" />
+    
+    <!-- Smoke from chimney -->
+    <path d="M310 60 C315 50, 320 55, 315 45 C310 35, 320 30, 320 20 C320 10, 330 15, 330 5" stroke="#D9CFC3" stroke-width="3" fill="none" opacity="0.6" />
+    <path d="M310 55 C305 45, 315 40, 310 30 C305 20, 315 15, 315 5" stroke="#D9CFC3" stroke-width="2" fill="none" opacity="0.4" />
+    
+    <!-- Canadian Flag on the house - flagpole -->
+    <rect x="210" y="90" width="3" height="50" fill="#5D4037" />
+    
+    <!-- Flag itself -->
+    <rect x="213" y="90" width="40" height="20" fill="#FFFFFF" />
+    <rect x="213" y="90" width="10" height="20" fill="#C12121" />
+    <rect x="243" y="90" width="10" height="20" fill="#C12121" />
+    <path d="M233 95 L234 100 L238 98 L235 102 L238 106 L234 104 L233 109 L232 104 L228 106 L231 102 L228 98 L232 100 Z" fill="#C12121" />
+  </g>
+  
+  <!-- Canadian elements -->
+  <g transform="translate(340, 130)">
+    <!-- Maple leaf icon -->
+    <circle cx="0" cy="0" r="35" fill="#C12121" />
+    <path d="M0 -25 L5 -7 L20 -12 L10 0 L20 12 L5 7 L0 25 L-5 7 L-20 12 L-10 0 L-20 -12 L-5 -7 Z" fill="#FFFFFF" />
+  </g>
+  
+  <!-- Moving truck - symbolizing relocation -->
+  <g transform="translate(380, 300) scale(0.7)">
+    <rect x="0" y="0" width="80" height="50" rx="5" fill="#79553D" />
+    <rect x="80" y="20" width="40" height="30" rx="2" fill="#8D6E63" />
+    <circle cx="25" cy="50" r="10" fill="#594A42" />
+    <circle cx="25" cy="50" r="5" fill="#3E2723" />
+    <circle cx="95" cy="50" r="10" fill="#594A42" />
+    <circle cx="95" cy="50" r="5" fill="#3E2723" />
+    <rect x="85" y="30" width="20" height="10" rx="1" fill="#C2E6FF" />
+  </g>
+  
+  <!-- Document with maple leaf watermark -->
+  <g transform="translate(80, 100) scale(0.8)">
+    <rect x="0" y="0" width="60" height="80" rx="3" fill="#FFFFFF" stroke="#79553D" stroke-width="2" />
+    <path d="M10 20 L50 20 M10 40 L50 40 M10 60 L40 60" stroke="#79553D" stroke-width="2" opacity="0.5" />
+    <path d="M30 15 L32 25 L38 22 L34 30 L38 38 L32 35 L30 45 L28 35 L22 38 L26 30 L22 22 L28 25 Z" fill="#C12121" opacity="0.2" />
+    <circle cx="45" cy="65" r="12" fill="#4CAF50" opacity="0.8" />
+    <path d="M38 65 L43 70 L52 61" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  </g>
+  
+  <!-- Family/people silhouettes -->
+  <g transform="translate(130, 320) scale(0.6)">
+    <!-- Adult 1 -->
+    <circle cx="0" cy="0" r="10" fill="#594A42" />
+    <path d="M0 10 L0 40 M-15 20 L15 20 M-10 40 L-15 65 M10 40 L15 65" stroke="#594A42" stroke-width="5" stroke-linecap="round" />
+    
+    <!-- Adult 2 -->
+    <circle cx="30" cy="5" r="9" fill="#594A42" />
+    <path d="M30 14 L30 40 M18 22 L42 22 M22 40 L18 65 M38 40 L42 65" stroke="#594A42" stroke-width="4" stroke-linecap="round" />
+    
+    <!-- Child -->
+    <circle cx="60" cy="15" r="7" fill="#594A42" />
+    <path d="M60 22 L60 42 M50 30 L70 30 M55 42 L50 60 M65 42 L70 60" stroke="#594A42" stroke-width="3" stroke-linecap="round" />
+  </g>
+  
+  <!-- World map elements & connection lines - background -->
+  <g opacity="0.25">
+    <path d="M250 385 C150 350, 100 300, 120 200 C140 100, 200 80, 250 100" stroke="#594A42" stroke-width="2" fill="none" stroke-dasharray="5,5" />
+    <circle cx="250" cy="385" r="5" fill="#594A42" />
+    <circle cx="120" cy="200" r="3" fill="#594A42" />
+    <circle cx="250" cy="100" r="4" fill="#594A42" />
+  </g>
+  
+  <!-- City skyline silhouette at bottom -->
+  <path d="M0 430 L500 430" stroke="#79553D" stroke-width="2" />
+  <rect x="0" y="430" width="500" height="70" fill="url(#cityPattern)" />
+  
+  <!-- Digital elements - representing the digital-first platform -->
+  <g transform="translate(420, 200)">
+    <rect x="0" y="0" width="30" height="50" rx="3" fill="#FFFFFF" stroke="#594A42" stroke-width="1" />
+    <rect x="5" y="5" width="20" height="30" rx="2" fill="#C2E6FF" stroke="#594A42" stroke-width="1" />
+    <circle cx="15" cy="45" r="3" fill="#594A42" />
+  </g>
+  
+  <!-- Money/mortgage symbol -->
+  <g transform="translate(100, 250) rotate(-15)">
+    <circle cx="0" cy="0" r="20" fill="#4CAF50" opacity="0.8" />
+    <text x="0" y="8" font-family="Arial" font-size="26" font-weight="bold" text-anchor="middle" fill="#FFFFFF">$</text>
+  </g>
+  
+  <!-- Key with maple leaf -->
+  <g transform="translate(350, 240) rotate(30)">
+    <circle cx="0" cy="0" r="15" fill="#8D6E63" />
+    <rect x="-5" y="15" width="10" height="25" rx="2" fill="#594A42" />
+    <path d="M-5 30 L-15 40 L-15 45 L-5 45 L-5 40 Z" fill="#3E2723" />
+    <path d="M0 -7 L2 -2 L6 -3 L3 0 L6 3 L2 2 L0 7 L-2 2 L-6 3 L-3 0 L-6 -3 L-2 -2 Z" fill="#C12121" />
+  </g>
+</svg>
