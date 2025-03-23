@@ -12,16 +12,23 @@
       <rect x="20" y="30" width="20" height="20" fill="#e8d9c2" stroke="#3a2014" stroke-width="1"/>
       <rect x="25" y="35" width="10" height="15" fill="#5e331f" stroke="#3a2014" stroke-width="1"/>
     </symbol>
+    
+    <!-- Home Pass Logo -->
+    <symbol id="home-pass-logo" viewBox="0 0 100 100">
+      <rect x="20" y="20" width="60" height="60" fill="#713f2e" rx="5" ry="5"/>
+      <path d="M35,30 L35,70 M50,30 L50,70 M35,50 L65,50 M65,30 L65,70" stroke="#e8d9c2" stroke-width="6" stroke-linecap="round"/>
+      <text x="50" y="90" font-family="Arial" font-size="14" font-weight="bold" fill="#713f2e" text-anchor="middle">HOME PASS</text>
+    </symbol>
   </defs>
 
   <!-- Background -->
   <rect width="800" height="500" fill="url(#background-gradient)" />
   
-  <!-- Path - more compact horizontally -->
+  <!-- Winding Path with obstacles -->
   <path d="M50,400 C100,380 130,420 170,380 C210,340 250,380 290,350 C330,320 370,350 410,320 C450,290 490,320 530,290 C570,260 610,290 650,260 C690,230 730,260 770,230" 
         fill="none" stroke="#8b5a2b" stroke-width="15" stroke-linecap="round" stroke-dasharray="0" />
   
-  <!-- Starting point -->
+  <!-- Starting point for winding path -->
   <circle cx="50" cy="400" r="20" fill="#713f2e" />
   <text x="50" y="405" font-family="Arial" font-size="12" fill="white" text-anchor="middle">START</text>
   
@@ -29,6 +36,18 @@
   <use href="#house-icon" x="730" y="190" width="60" height="60"/>
   <text x="760" y="170" font-family="Arial" font-size="14" font-weight="bold" fill="#3a2014" text-anchor="middle">CANADIAN</text>
   <text x="760" y="188" font-family="Arial" font-size="14" font-weight="bold" fill="#3a2014" text-anchor="middle">HOME</text>
+  
+  <!-- Direct Path (separate, below the obstacles) -->
+  <path d="M50,450 C150,450 200,450 400,450 C600,450 650,450 770,450" 
+        fill="none" stroke="#713f2e" stroke-width="8" stroke-linecap="round" />
+        
+  <!-- Home Pass logo on direct path -->
+  <use href="#home-pass-logo" x="370" y="420" width="60" height="60"/>
+  
+  <!-- Arrow connecting direct path to destination -->
+  <path d="M770,450 C780,420 780,350 770,250" 
+        fill="none" stroke="#713f2e" stroke-width="5" stroke-linecap="round" stroke-dasharray="10,5" />
+  <polygon points="770,250 765,265 775,265" fill="#713f2e" />
   
   <!-- Obstacle 1: Hidden Costs -->
   <circle cx="170" cy="380" r="28" fill="#713f2e" />
@@ -100,10 +119,4 @@
     <line x1="0" y1="35" x2="-10" y2="55" stroke="#795548" stroke-width="4" stroke-linecap="round" />
     <line x1="0" y1="35" x2="5" y2="55" stroke="#795548" stroke-width="4" stroke-linecap="round" />
   </g>
-  
-  <!-- Title -->
-  <text x="400" y="70" font-family="Arial" font-size="26" font-weight="bold" fill="#713f2e" text-anchor="middle">THE NEWCOMER'S JOURNEY TO HOMEOWNERSHIP</text>
-  
-  <!-- Subtitle -->
-  <text x="400" y="100" font-family="Arial" font-size="16" fill="#3a2014" text-anchor="middle">Navigating Challenges on the Path to Your Canadian Home</text>
 </svg>
