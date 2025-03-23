@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="background-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f2e8da;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e8d9c2;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Home Pass Logo -->
+    <symbol id="home-pass-logo" viewBox="0 0 100 100">
+      <path d="M30,30 L30,80 M50,30 L50,80 M30,50 C30,50 50,50 70,50 C70,50 70,30 70,80" fill="#713f2e" stroke="#713f2e" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    
+    <!-- House icon -->
+    <symbol id="house-icon" viewBox="0 0 100 100">
+      <path d="M50,20 L20,45 L25,45 L25,80 L75,80 L75,45 L80,45 Z" fill="#713f2e" stroke="#3a2014" stroke-width="2"/>
+      <rect x="40" y="55" width="20" height="25" fill="#e8d9c2" stroke="#3a2014" stroke-width="1"/>
+    </symbol>
+  </defs>
+
+  <!-- Background - transparent -->
+  <rect width="800" height="500" fill="none" />
+  
+  <!-- Main metaphor: Two paths, one with obstacles, one direct through Home Pass -->
+  
+  <!-- Difficult path (maze-like) -->
+  <path d="M100,400 L200,400 L200,200 L350,200 L350,350 L500,350 L500,150 L650,150 L650,300" 
+        fill="none" stroke="#8b5a2b" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+  
+  <!-- Direct path -->
+  <path d="M100,450 L650,450" 
+        fill="none" stroke="#713f2e" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" />
+  
+  <!-- Start point -->
+  <circle cx="70" cy="425" r="25" fill="#713f2e" />
+  <text x="70" cy="425" dominant-baseline="middle" text-anchor="middle" fill="white" font-family="Arial" font-size="12">START</text>
+  
+  <!-- End point -->
+  <use href="#house-icon" x="650" y="210" width="100" height="100" />
+  <text x="700" y="200" font-family="Arial" font-size="14" font-weight="bold" fill="#3a2014" text-anchor="middle">CANADIAN</text>
+  <text x="700" y="218" font-family="Arial" font-size="14" font-weight="bold" fill="#3a2014" text-anchor="middle">HOME</text>
+  
+  <!-- Home Pass on the direct path -->
+  <use href="#home-pass-logo" x="375" y="425" width="50" height="50" />
+  <rect x="325" y="400" width="150" height="70" rx="35" fill="none" stroke="#713f2e" stroke-width="3" />
+  <text x="400" y="485" font-family="Arial" font-size="16" font-weight="bold" fill="#713f2e" text-anchor="middle">HOME PASS</text>
+  
+  <!-- Obstacles on the difficult path -->
+  
+  <!-- Obstacle 1: Hidden Costs -->
+  <circle cx="200" cy="300" r="25" fill="#713f2e" />
+  <text x="200" y="300" font-family="Arial" font-size="9" fill="white" text-anchor="middle" dominant-baseline="middle">HIDDEN</text>
+  <text x="200" y="315" font-family="Arial" font-size="9" fill="white" text-anchor="middle">COSTS</text>
+  <circle cx="200" cy="260" r="15" fill="white" stroke="#713f2e" stroke-width="2" />
+  <text x="200" y="265" font-family="Arial" font-size="16" fill="#713f2e" text-anchor="middle">$</text>
+  
+  <!-- Obstacle 2: Communication Barriers -->
+  <circle cx="350" cy="275" r="25" fill="#713f2e" />
+  <text x="350" y="270" font-family="Arial" font-size="8" fill="white" text-anchor="middle">COMMUNICATION</text>
+  <text x="350" y="285" font-family="Arial" font-size="8" fill="white" text-anchor="middle">BARRIERS</text>
+  <rect x="335" y="230" width="30" height="25" rx="5" fill="white" stroke="#713f2e" stroke-width="2" />
+  <text x="350" y="247" font-family="Arial" font-size="14" fill="#713f2e" text-anchor="middle">?!</text>
+  
+  <!-- Obstacle 3: Information Complexity -->
+  <circle cx="425" cy="350" r="25" fill="#713f2e" />
+  <text x="425" y="345" font-family="Arial" font-size="8" fill="white" text-anchor="middle">INFORMATION</text>
+  <text x="425" y="360" font-family="Arial" font-size="8" fill="white" text-anchor="middle">COMPLEXITY</text>
+  <circle cx="425" cy="310" r="15" fill="white" stroke="#713f2e" stroke-width="2" />
+  <text x="425" y="315" font-family="Arial" font-size="16" fill="#713f2e" text-anchor="middle">i</text>
+  
+  <!-- Obstacle 4: Documentation Burden -->
+  <circle cx="500" cy="250" r="25" fill="#713f2e" />
+  <text x="500" y="245" font-family="Arial" font-size="8" fill="white" text-anchor="middle">DOCUMENTATION</text>
+  <text x="500" y="260" font-family="Arial" font-size="8" fill="white" text-anchor="middle">BURDEN</text>
+  <rect x="485" y="210" width="30" height="25" fill="white" stroke="#713f2e" stroke-width="2" />
+  <line x1="490" y1="217" x2="510" y2="217" stroke="#713f2e" stroke-width="1.5" />
+  <line x1="490" y1="222" x2="510" y2="222" stroke="#713f2e" stroke-width="1.5" />
+  <line x1="490" y1="227" x2="510" y2="227" stroke="#713f2e" stroke-width="1.5" />
+  
+  <!-- Obstacle 5: Cross-Border Financial Hurdles -->
+  <circle cx="575" cy="150" r="25" fill="#713f2e" />
+  <text x="575" y="140" font-family="Arial" font-size="8" fill="white" text-anchor="middle">CROSS-BORDER</text>
+  <text x="575" y="150" font-family="Arial" font-size="8" fill="white" text-anchor="middle">FINANCIAL</text>
+  <text x="575" y="160" font-family="Arial" font-size="8" fill="white" text-anchor="middle">HURDLES</text>
+  <path d="M560,110 L590,120 L560,130 Z" fill="white" stroke="#713f2e" stroke-width="2" />
+  <text x="570" y="120" font-family="Arial" font-size="12" fill="#713f2e" text-anchor="middle">↹</text>
+  
+  <!-- Connector arrows -->
+  <path d="M650,300 L670,300 C685,300 685,270 670,270 L700,270" 
+        fill="none" stroke="#8b5a2b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="10,5" />
+        
+  <path d="M650,450 L670,450 C685,450 685,330 670,330 L700,330" 
+        fill="none" stroke="#713f2e" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+  
+  <!-- Figure stuck in maze -->
+  <g transform="translate(275, 200) scale(0.7)">
+    <circle cx="0" cy="0" r="10" fill="#5d4037" />
+    <rect x="-5" y="10" width="10" height="25" fill="#795548" />
+    <line x1="-5" y1="15" x2="-15" y2="25" stroke="#795548" stroke-width="4" stroke-linecap="round" />
+    <line x1="5" y1="15" x2="15" y2="25" stroke="#795548" stroke-width="4" stroke-linecap="round" />
+    <line x1="0" y1="35" x2="-10" y2="55" stroke="#795548" stroke-width="4" stroke-linecap="round" />
+    <line x1="0" y1="35" x2="5" y2="55" stroke="#795548" stroke-width="4" stroke-linecap="round" />
+  </g>
+  
+  <!-- Figure on direct path -->
+  <g transform="translate(570, 450) scale(0.7)">
+    <circle cx="0" cy="0" r="10" fill="#5d4037" />
+    <rect x="-5" y="10" width="10" height="25" fill="#795548" />
+    <line x1="-5" y1="15" x2="-15" y2="25" stroke="#795548" stroke-width="4" stroke-linecap="round" />
+    <line x1="5" y1="15" x2="15" y2="25" stroke="#795548" stroke-width="4" stroke-linecap="round" />
+    <line x1="0" y1="35" x2="-10" y2="55" stroke="#795548" stroke-width="4" stroke-linecap="round" />
+    <line x1="0" y1="35" x2="5" y2="55" stroke="#795548" stroke-width="4" stroke-linecap="round" />
+  </g>
+</svg>
