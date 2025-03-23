@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="background-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f2e8da;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e8d9c2;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- House icon -->
+    <symbol id="house-icon" viewBox="0 0 60 60">
+      <path d="M30,5 L5,25 L10,25 L10,50 L50,50 L50,25 L55,25 Z" fill="#713f2e" stroke="#3a2014" stroke-width="2"/>
+      <rect x="20" y="30" width="20" height="20" fill="#e8d9c2" stroke="#3a2014" stroke-width="1"/>
+      <rect x="25" y="35" width="10" height="15" fill="#5e331f" stroke="#3a2014" stroke-width="1"/>
+    </symbol>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#background-gradient)" />
+  
+  <!-- Path - more compact horizontally -->
+  <path d="M50,400 C100,380 130,420 170,380 C210,340 250,380 290,350 C330,320 370,350 410,320 C450,290 490,320 530,290 C570,260 610,290 650,260 C690,230 730,260 770,230" 
+        fill="none" stroke="#8b5a2b" stroke-width="15" stroke-linecap="round" stroke-dasharray="0" />
+  
+  <!-- Starting point -->
+  <circle cx="50" cy="400" r="20" fill="#713f2e" />
+  <text x="50" y="405" font-family="Arial" font-size="12" fill="white" text-anchor="middle">START</text>
+  
+  <!-- Canadian house destination -->
+  <use href="#house-icon" x="730" y="190" width="60" height="60"/>
+  <text x="760" y="170" font-family="Arial" font-size="14" font-weight="bold" fill="#3a2014" text-anchor="middle">CANADIAN</text>
+  <text x="760" y="188" font-family="Arial" font-size="14" font-weight="bold" fill="#3a2014" text-anchor="middle">HOME</text>
+  
+  <!-- Obstacle 1: Hidden Costs -->
+  <circle cx="170" cy="380" r="28" fill="#713f2e" />
+  <text x="170" y="375" font-family="Arial" font-size="10" fill="white" text-anchor="middle">HIDDEN</text>
+  <text x="170" y="390" font-family="Arial" font-size="10" fill="white" text-anchor="middle">COSTS</text>
+  <path d="M170,352 L170,330" stroke="#3a2014" stroke-width="2" />
+  <circle cx="170" cy="315" r="15" fill="#e7c496" stroke="#3a2014" stroke-width="2" />
+  <text x="170" y="320" font-family="Arial" font-size="16" fill="#3a2014" text-anchor="middle">$</text>
+  
+  <!-- Obstacle 2: Communication Barriers -->
+  <circle cx="290" cy="350" r="28" fill="#713f2e" />
+  <text x="290" y="345" font-family="Arial" font-size="8" fill="white" text-anchor="middle">COMMUNICATION</text>
+  <text x="290" y="360" font-family="Arial" font-size="8" fill="white" text-anchor="middle">BARRIERS</text>
+  <path d="M290,322 L290,300" stroke="#3a2014" stroke-width="2" />
+  <rect x="270" y="270" width="40" height="30" rx="5" fill="#e7c496" stroke="#3a2014" stroke-width="2" />
+  <text x="290" y="290" font-family="Arial" font-size="16" fill="#3a2014" text-anchor="middle">?!</text>
+  
+  <!-- Obstacle 3: Information Complexity -->
+  <circle cx="410" cy="320" r="28" fill="#713f2e" />
+  <text x="410" y="315" font-family="Arial" font-size="8" fill="white" text-anchor="middle">INFORMATION</text>
+  <text x="410" y="330" font-family="Arial" font-size="8" fill="white" text-anchor="middle">COMPLEXITY</text>
+  <path d="M410,292 L410,270" stroke="#3a2014" stroke-width="2" />
+  <circle cx="410" cy="250" r="20" fill="#e7c496" stroke="#3a2014" stroke-width="2" />
+  <text x="410" y="255" font-family="Arial" font-size="14" fill="#3a2014" text-anchor="middle">i</text>
+  
+  <!-- Obstacle 4: Documentation Burden -->
+  <circle cx="530" cy="290" r="28" fill="#713f2e" />
+  <text x="530" y="285" font-family="Arial" font-size="8" fill="white" text-anchor="middle">DOCUMENTATION</text>
+  <text x="530" y="300" font-family="Arial" font-size="8" fill="white" text-anchor="middle">BURDEN</text>
+  <path d="M530,262 L530,240" stroke="#3a2014" stroke-width="2" />
+  <rect x="510" y="205" width="40" height="35" fill="#e7c496" stroke="#3a2014" stroke-width="2" />
+  <line x1="518" y1="215" x2="542" y2="215" stroke="#3a2014" stroke-width="1.5" />
+  <line x1="518" y1="222" x2="542" y2="222" stroke="#3a2014" stroke-width="1.5" />
+  <line x1="518" y1="229" x2="542" y2="229" stroke="#3a2014" stroke-width="1.5" />
+  
+  <!-- Obstacle 5: Cross-Border Financial Hurdles -->
+  <circle cx="650" cy="260" r="28" fill="#713f2e" />
+  <text x="650" y="250" font-family="Arial" font-size="8" fill="white" text-anchor="middle">CROSS-BORDER</text>
+  <text x="650" y="260" font-family="Arial" font-size="8" fill="white" text-anchor="middle">FINANCIAL</text>
+  <text x="650" y="270" font-family="Arial" font-size="8" fill="white" text-anchor="middle">HURDLES</text>
+  <path d="M650,232 L650,210" stroke="#3a2014" stroke-width="2" />
+  <path d="M635,180 L665,195 L635,210 Z" fill="#e7c496" stroke="#3a2014" stroke-width="2" />
+  <text x="642" y="195" font-family="Arial" font-size="14" fill="#3a2014" text-anchor="middle">↹</text>
+  
+  <!-- People walking on the path -->
+  <g transform="translate(110, 390) scale(0.6)">
+    <circle cx="0" cy="0" r="10" fill="#5d4037" />
+    <rect x="-5" y="10" width="10" height="25" fill="#795548" />
+    <line x1="-5" y1="15" x2="-15" y2="25" stroke="#795548" stroke-width="4" stroke-linecap="round" />
+    <line x1="5" y1="15" x2="15" y2="25" stroke="#795548" stroke-width="4" stroke-linecap="round" />
+    <line x1="0" y1="35" x2="-10" y2="55" stroke="#795548" stroke-width="4" stroke-linecap="round" />
+    <line x1="0" y1="35" x2="5" y2="55" stroke="#795548" stroke-width="4" stroke-linecap="round" />
+  </g>
+  
+  <g transform="translate(350, 335) scale(0.6)">
+    <circle cx="0" cy="0" r="10" fill="#5d4037" />
+    <rect x="-5" y="10" width="10" height="25" fill="#5e331f" />
+    <line x1="-5" y1="15" x2="-15" y2="25" stroke="#5e331f" stroke-width="4" stroke-linecap="round" />
+    <line x1="5" y1="15" x2="15" y2="25" stroke="#5e331f" stroke-width="4" stroke-linecap="round" />
+    <line x1="0" y1="35" x2="-10" y2="55" stroke="#5e331f" stroke-width="4" stroke-linecap="round" />
+    <line x1="0" y1="35" x2="5" y2="55" stroke="#5e331f" stroke-width="4" stroke-linecap="round" />
+  </g>
+  
+  <g transform="translate(590, 270) scale(0.6)">
+    <circle cx="0" cy="0" r="10" fill="#5d4037" />
+    <rect x="-5" y="10" width="10" height="25" fill="#795548" />
+    <line x1="-5" y1="15" x2="-15" y2="25" stroke="#795548" stroke-width="4" stroke-linecap="round" />
+    <line x1="5" y1="15" x2="15" y2="25" stroke="#795548" stroke-width="4" stroke-linecap="round" />
+    <line x1="0" y1="35" x2="-10" y2="55" stroke="#795548" stroke-width="4" stroke-linecap="round" />
+    <line x1="0" y1="35" x2="5" y2="55" stroke="#795548" stroke-width="4" stroke-linecap="round" />
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="70" font-family="Arial" font-size="26" font-weight="bold" fill="#713f2e" text-anchor="middle">THE NEWCOMER'S JOURNEY TO HOMEOWNERSHIP</text>
+  
+  <!-- Subtitle -->
+  <text x="400" y="100" font-family="Arial" font-size="16" fill="#3a2014" text-anchor="middle">Navigating Challenges on the Path to Your Canadian Home</text>
+</svg>
